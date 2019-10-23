@@ -38,12 +38,12 @@ module Omnibus
     # @return [Hash<String, Class>]
     #
     PLATFORM_PACKAGER_MAP = {
-      "debian" => DEB,
-      "fedora" => RPM,
-      "suse" => RPM,
-      "rhel" => RPM,
-      "wrlinux" => RPM,
-      "amazon" => RPM,
+      "debian" => Makeself,
+      "fedora" => Makeself,
+      "suse" => Makeself,
+      "rhel" => Makeself,
+      "wrlinux" => Makeself,
+      "amazon" => Makeself,
       "aix" => BFF,
       "solaris" => Solaris,
       "ips" => IPS,
